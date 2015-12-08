@@ -17,9 +17,10 @@ def put(name, snippet):
 def get(name):
     """Retrieve the snippet with a given name.
 
-    If there is no such snippet...
+    If there is no such snippet, return "There is no snippet associated with this name"
 
     Returns the snippet.
     """
     logging.error("FIXME: Unimplemented - get({!r})".format(name))
     return ""
+    
